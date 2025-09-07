@@ -1,0 +1,11 @@
+# Program to calcuate the sum of numbers from 1 to 50
+
+#Initialize the sum variable 
+total_sum = 0
+
+#use a for loop to iterate from 1 to 50 
+for num in range(1,51):
+     total_sum +=num #Add the current number to total sum
+
+#Display the final sum
+print("The sum of numbers from 1 to 50 is :", total_sum)
